@@ -96,8 +96,8 @@ nav .rtd {
 
 nav .ltd {
   flex: 1 1 0 !important;
-  flex-wrap: wrap;
-  row-gap: 6px;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
 }
 
 nav .rtd {
@@ -130,6 +130,14 @@ nav a.selected {
   color: var(--gn-text) !important;
   font-weight: 700 !important;
   border-bottom: 1px solid var(--gn-text) !important;
+}
+
+nav .curnavitem {
+  display: none !important;
+}
+
+html[data-gn-theme="light"] #watchmsg {
+  color: var(--gn-text) !important;
 }
 
 /* Search box — 원본의 콜랩스/확장 동작 제거, 고정폭 일반 입력창 */
@@ -745,7 +753,7 @@ li .u {
 /* weekly 등 본문 내 a.u 링크 테마 컬러 적용 */
 a.u,
 .weekly a.u {
-  color: var(--gn-text) !important;
+  color: var(--gn-accent) !important;
 }
 
 a.u:hover,
