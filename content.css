@@ -530,6 +530,34 @@ article pre code {
   margin: 16px 0;
 }
 
+/* strong/b 포인트 컬러 통일 (라이트/다크 공통) */
+html[data-gn-theme="light"] .topicdesc strong,
+html[data-gn-theme="light"] .topicdesc b,
+html[data-gn-theme="light"] .topic_contents strong,
+html[data-gn-theme="light"] .topic_contents b,
+html[data-gn-theme="light"] #topic_contents strong,
+html[data-gn-theme="light"] #topic_contents b,
+html[data-gn-theme="light"] .comment_contents strong,
+html[data-gn-theme="light"] .comment_contents b,
+html[data-gn-theme="light"] .weekly-container .desc strong,
+html[data-gn-theme="light"] .weekly-container .desc b,
+html[data-gn-theme="light"] .weekly-container .content strong,
+html[data-gn-theme="light"] .weekly-container .content b,
+html[data-gn-theme="dark"] .topicdesc strong,
+html[data-gn-theme="dark"] .topicdesc b,
+html[data-gn-theme="dark"] .topic_contents strong,
+html[data-gn-theme="dark"] .topic_contents b,
+html[data-gn-theme="dark"] #topic_contents strong,
+html[data-gn-theme="dark"] #topic_contents b,
+html[data-gn-theme="dark"] .comment_contents strong,
+html[data-gn-theme="dark"] .comment_contents b,
+html[data-gn-theme="dark"] .weekly-container .desc strong,
+html[data-gn-theme="dark"] .weekly-container .desc b,
+html[data-gn-theme="dark"] .weekly-container .content strong,
+html[data-gn-theme="dark"] .weekly-container .content b {
+  color: var(--gn-accent) !important;
+}
+
 /* ---- Comments (thread) ---- */
 .comments {
   padding-top: 20px !important;
