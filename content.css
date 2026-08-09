@@ -270,6 +270,12 @@ article {
   text-decoration: none !important;
 }
 
+.topic_row .topictitle > a.gn-visited h1,
+.topic_row .topictitle > a.gn-visited h2 {
+  color: var(--gn-text-muted) !important;
+  font-weight: 500 !important;
+}
+
 .topic_row .topictitle a:hover h1 {
   color: var(--gn-accent) !important;
 }

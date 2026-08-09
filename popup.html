@@ -34,6 +34,29 @@
       color: #fff;
       border-color: #111;
     }
+    hr {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 14px 0;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: #555;
+    }
+    #resetVisited {
+      width: 100%;
+      padding: 8px 0;
+      border: 1px solid #d0d0d0;
+      background: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    #resetVisited:active {
+      background: #f2f2f2;
+    }
   </style>
 </head>
 <body>
@@ -42,6 +65,9 @@
     <button id="light">라이트</button>
     <button id="dark">다크</button>
   </div>
+  <hr />
+  <h2>방문 기록</h2>
+  <button id="resetVisited">방문 기록 초기화</button>
   <script src="popup.js"></script>
 </body>
 </html>

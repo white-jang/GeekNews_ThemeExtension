@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GeekZine",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "GeekNews(news.hada.io)를 매거진 스타일로 바꿔주는 테마 익스텐션",
   "permissions": ["storage"],
   "icons": {
@@ -24,6 +24,11 @@
       "css": ["content.css"],
       "js": ["content.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://news.hada.io/*"],
+      "js": ["visited.js"],
+      "run_at": "document_idle"
     }
   ]
 }

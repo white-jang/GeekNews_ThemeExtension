@@ -16,4 +16,5 @@
       apply(changes[STORAGE_KEY].newValue);
     }
   });
+
 })();
