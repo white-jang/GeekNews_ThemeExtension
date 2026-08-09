@@ -22,3 +22,6 @@ node_modules/
 
 # 기록용 폴더
 issues/
+
+# Claude Code 워크트리 체크아웃 (로컬 전용, 커밋 대상 아님)
+.claude/worktrees/
